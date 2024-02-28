@@ -1,0 +1,16 @@
+.child{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: orange;
+    margin: 5px;
+    padding: 10px;
+    font-size: 2em;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}

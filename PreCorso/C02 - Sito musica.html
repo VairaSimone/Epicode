@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Gusti Musicali</title>
+
+    <style>
+        body {
+            background-color: #00FFFF;
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+        }
+
+        h1 {
+            color: #008080;
+        }
+
+        form {
+            max-width: 600px; /* Limitato la larghezza del form */
+            margin: 0 auto; /* Centrato il form nella pagina */
+            background-color: #FFF; /* Aggiunto uno sfondo bianco al form */
+            padding: 20px; /* Aggiunto spazio interno al form */
+            border-radius: 8px; /* Aggiunto un bordo arrotondato al form */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Aggiunto un'ombra */
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        h4 {
+            margin-top: 20px; 
+            color: #008080;
+        }
+
+        p {
+            margin-top: 10px; 
+            color: #333; 
+        }
+
+        button {
+            background-color: #008080;
+            color: #FFF;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #006666; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Streaming Musicale</h1>
+
+    <form onsubmit="alert('Registrazione inviata')">
+        <form onsubmit="alert('Registrazione inviata')" >
+            <div>
+                <h5>Nome:</h5>
+                <input type="text" placeholder="Inserisci il tuo nome"/>
+            </div>
+            <div>
+                <h5>Cognome:</h5>
+                <input type="text" placeholder="Inserisci il tuo cognome"/>
+            </div>
+            <div>
+                <h5>Data di nascita:</h5>
+                <input type="date"/>
+            </div>
+            <div>
+                <h5>Numero di telefono:</h5>
+                <input type ="number" placeholder="Inserisci il tuo numero di telefono"/>
+            </div>
+            <div>
+                <h5>Email:</h5>
+                <input type="email" placeholder="Inserisci la tua email"/>
+            </div>
+            <div>
+                <h5>Password:</h5>
+                <input type="password" placeholder="Inserisci la tua password"/>
+            </div>
+    
+            <h4>Selezione il tuo genere musicale:</h4>
+            Blues: <input type="checkbox"/> 
+            Musica classica: <input type="checkbox"/> 
+            Country <input type="checkbox"/> 
+            Pop <input type ="checkbox"/> 
+            Jazz: <input type="checkbox"/> 
+            
+            <p>Accetto i <a href="https://google.com"> Termini e le condizioni</p>
+            <input type="radio"/>
+            
+            <button type="Submit" > Invia Registrazione</button>
+                
+        </form>
+    </form>
+
+</body>
+
+</html>
