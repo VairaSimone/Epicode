@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+#profilo{
+    margin: 25px 150px 10px 0px;
+}
+
+.icone-profilo{
+    margin: 0px 20px 0px;
+}
+
+#logo{
+    margin-left: 50%;
+}
+
+#Resume{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    color: black;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+
+}
+#principale{
+    width: 60%;
+    height: 100%;
+    margin: 0% 5% 0% 5%;
+
+}
+
+nav{
+   margin-right: 10%;
+   width: 20%;
+   border-left: 0.1px solid rgb(192, 188, 188);
+   padding-left: 40px;
+   display: flex;
+   flex-direction: column;
+}
+
+#social{
+    border-bottom: 1px solid gray;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#social p {
+    color: black;
+    align-items: center;
+
+}
+
+#Maybe{
+    color: gray !important;
+    text-decoration: underline;
+} 
+#Twitter{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.card{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: 4% 4% 4% 0;
+
+}
+
+.copertina {
+    padding: 4%;
+}
+
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 4%;
+}
+li a:hover{
+    color: black;
+}
+li a{
+    text-decoration: none;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p, span{
+    color: gray;
+    font-size: 1.1rem;
+}
+
+.icon{
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.image-profilo{
+    border-radius: 10px;
+}
+
+#topic{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic-top{
+    margin-right: 10px;
+    padding: 0px 30px;
+    border-radius: 40%;
+    background-color: rgb(238, 238, 238);
+}
+
+.topic-top p{
+    color: black;
+}
